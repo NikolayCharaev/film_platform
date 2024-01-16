@@ -1,0 +1,16 @@
+.nav{ 
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+

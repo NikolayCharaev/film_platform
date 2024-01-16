@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import Nav from '@/components/nav/Nav'
+import Header from '@/components/header/Header'
 export default function Home() {
   return (
-   <>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque eius reprehenderit earum debitis. Illum dolores soluta consectetur dolorem. Porro dolorem quia consectetur tenetur unde laudantium veritatis, non sapiente nihil.
-   </>
+   <> 
+       <Header/>
+   </>  
   )
 }

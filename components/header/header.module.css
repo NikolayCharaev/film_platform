@@ -1,0 +1,24 @@
+.header {
+  /* width: 225px; */
+
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 215px;
+
+  /* display: flex;
+  justify-content: center;   
+  align-items: center; */
+}
+
+.content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start; */
+
+
+
+  padding: 40px 106px 0 55px;
+}
