@@ -1,10 +1,15 @@
+
+:root {
+  --gradient-accent: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-ul,ol{ 
+ul,
+ol {
   list-style: none;
   padding: 0;
 }
@@ -17,9 +22,26 @@ body {
   color: rgba(255, 255, 255, 1);
   font-size: 28px;
   font-weight: 500;
+
+  overflow-x: hidden;
 }
 
-.scroll-top{ 
+button {
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-top {
   background: transparent;
   width: max-content;
   outline: none;

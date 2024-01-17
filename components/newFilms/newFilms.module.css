@@ -1,0 +1,33 @@
+
+.newFilms{ 
+  margin-bottom: 110px;
+}
+
+.posters {
+  display: flex;
+  gap: 44px;
+  align-items: center;
+  overflow: scroll;
+}
+
+.posterImage {
+  border-radius: 28px;
+}
+
+.poster {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+  white-space: nowrap;
+}

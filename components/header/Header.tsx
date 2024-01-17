@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../logo/Logo';
 import Nav from '../nav/Nav';
-import ScrollTop from '../scrollTop/ScrollTop';
 import styles from './header.module.css';
 const Header = () => {
   return (

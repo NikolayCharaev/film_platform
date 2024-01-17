@@ -1,0 +1,23 @@
+
+
+.topViews {
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.top span {
+    font-size: 52px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+  
+    color: var(--gradient-accent);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--gradient-accent);
+
+  }

@@ -1,0 +1,44 @@
+
+
+
+.poster { 
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+
+.posterTitle{ 
+    /* position: absolute; */
+}
+
+.description{ 
+    font-size: 40px;
+    width: 100%;
+}
+
+.content { 
+    position: absolute;
+    bottom: 20px;
+    right: 458px;
+    /* transform: translate(-50%, 50%); */
+
+
+
+    display: flex;
+}
+
+.contentBottom { 
+    width: 961px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons { 
+    display: flex;
+    gap: 24px;
+}
