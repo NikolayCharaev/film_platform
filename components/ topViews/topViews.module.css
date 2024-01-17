@@ -1,6 +1,5 @@
-
-
 .topViews {
+  margin-bottom: 203px;
 }
 
 .top {
@@ -10,14 +9,47 @@
 }
 
 .top span {
-    font-size: 52px;
-    font-style: italic;
-    font-weight: 900;
-    line-height: normal;
-  
-    color: var(--gradient-accent);
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--gradient-accent);
+  font-size: 52px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+  color: black;
 
-  }
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+}
+
+.topWeekPoster {
+  border-radius: 28px;
+  object-fit: contain;
+  margin-left: -60px;
+}
+
+.topWeekList {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.topWeekItem {
+  display: flex;
+  align-items: center;
+}
+
+.topWeekCount {
+  color: black;
+  font-size: 360px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+}
+
+
+.topWeekItem:first-child img { 
+  margin-left: -20px;
+}

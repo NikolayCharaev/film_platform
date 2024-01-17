@@ -4,6 +4,8 @@
 }
 
 .posters {
+  margin-top: 24px;
+
   display: flex;
   gap: 44px;
   align-items: center;
