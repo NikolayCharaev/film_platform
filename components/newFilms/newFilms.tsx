@@ -5,6 +5,7 @@ import { newFilms } from '@/data/newFilms';
 
 import styles from './newFilms.module.css';
 import FilmRating from '../filmRating/FilmRating';
+import Link from 'next/link';
 
 const NewFilms = () => {
   return (
@@ -16,16 +17,18 @@ const NewFilms = () => {
           const { rating, title, imageUrl } = elem;
           return (
             <div key={index} className={styles.poster}>
-              <Image
-                className={styles.posterImage}
-                src={imageUrl}
-                width={398}
-                height={597}
-                alt="poster"
-              />
+              <Link href="/selectedFilm">
+                <Image
+                  className={styles.posterImage}
+                  src={imageUrl}
+                  width={398}
+                  height={597}
+                  alt="poster"
+                />
 
-              <h3 className={styles.title}>{title}</h3>
-              <FilmRating>{rating}</FilmRating>
+                <h3 className={styles.title}>{title}</h3>
+                <FilmRating>{rating}</FilmRating>
+              </Link>
             </div>
           );
         })}

@@ -26,6 +26,12 @@ body {
   overflow-x: hidden;
 }
 
+
+ a { 
+  text-decoration: none;
+  color: inherit;
+ }
+
 button {
   outline: none;
   border: none;
@@ -47,4 +53,9 @@ h6 {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+
+
+.wrapper { 
 }

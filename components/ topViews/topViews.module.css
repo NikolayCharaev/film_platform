@@ -30,6 +30,16 @@
   display: flex;
   gap: 100px;
   align-items: center;
+  overflow: scroll;
+}
+
+.topWeekList::-webkit-scrollbar {
+  display: none;
+}
+
+.topWeekList {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 .topWeekItem {
