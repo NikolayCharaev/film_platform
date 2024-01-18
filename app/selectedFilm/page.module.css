@@ -1,0 +1,63 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+
+  position: relative;
+
+  margin-bottom: 112px;
+
+}
+.poster {
+  object-fit: cover;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.topContent {
+  margin-top: 93px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.topInfo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+.topRating {
+  padding: 14px 22px;
+  background: var(--main-white-20, rgba(255, 255, 255, 0.2));
+  border-radius: 12px;
+}
+
+.topTitle {
+  margin-bottom: 32px;
+}
+
+.topDescription {
+  width: 775px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+
+}
+
+
+.topButtons{ 
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
