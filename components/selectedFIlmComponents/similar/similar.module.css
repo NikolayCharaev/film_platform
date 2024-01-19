@@ -1,0 +1,42 @@
+.similar { 
+
+  margin-bottom: 60px;
+
+}
+
+
+
+.posters {
+    margin-top: 24px;
+  
+    display: flex;
+    gap: 44px;
+    align-items: center;
+    overflow: scroll;
+  }
+  
+  .posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .posters {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+  .posterImage {
+    border-radius: 28px;
+  }
+  
+  .poster {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    transition: all 0.2s ease;
+    padding: 10px 0;
+  }
+  
+  .poster img:hover {
+    outline: 4px solid var(--Gradient-Vertical, #5712b1);
+  }

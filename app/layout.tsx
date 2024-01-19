@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
-import styles from './page.module.css'
+import styles from './page.module.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,8 +17,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ru">
       <body className={inter.className}>
         <div className="wrapper">
-          <Header />
-          <div className={styles.content}>{children}</div>
+            <Header />
+            <div className={styles.content}>{children}</div>
         </div>
       </body>
     </html>
