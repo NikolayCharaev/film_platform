@@ -3,12 +3,13 @@ import styles from './page.module.css';
 import Image from 'next/image';
 
 //@ts-ignore
-import poster from '@/public/selectedFilm/poster.jpg';
+// import poster from '../../public/selectedFilm/poster.jpg';
+import poster from '../../public/selectedFIlm/poster.jpg';
 //@ts-ignore
-import posterTitle from '@/public/selectedFilm/posterTitle.png';
-import favorites from '@/public/icons/favorites.svg';
-import addFavotite from '@/public/icons/add-favofite.svg';
-import warningIcon from '@/public/warning.svg';
+import posterTitle from '../../public/selectedFilm/posterTitle.png';
+import favorites from '../../public/icons/favorites.svg';
+import addFavotite from '../../public/icons/add-favofite.svg';
+import warningIcon from '../../public/warning.svg';
 
 import Button from '@/components/button/Button';
 import Title from '@/components/title/Title';
@@ -51,7 +52,7 @@ const page = () => {
         <Image className={styles.poster} src={poster} width={1400} height={780} alt="poster" />
       </div>
 
-      <Seasons arr={seasons}/> 
+      <Seasons arr={seasons} />
 
       <Title>Описание</Title>
 

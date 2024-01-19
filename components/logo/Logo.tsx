@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '@/public/Logo.svg';
+import logo from '../../public/Logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
-// import Test from '@/public/icons/Test';
+// import Test from '../../public/icons/Test';
 import styles from './logo.module.css';
 const Logo = () => {
   return (

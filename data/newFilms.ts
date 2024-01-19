@@ -1,7 +1,7 @@
-import filmOne from '@/public/newFilms/filmOne.jpg';
-import filmTwo from '@/public/newFilms/filmTwo.jpg';
-import filmThree from '@/public/newFilms/filmThree.jpg';
-import filmFour from '@/public/newFilms/filmFour.jpg';
+import filmOne from '../public/newFilms/filmOne.jpg';
+import filmTwo from '../public/newFilms/filmTwo.jpg';
+import filmThree from '../public/newFilms/filmThree.jpg';
+import filmFour from '../public/newFilms/filmFour.jpg';
 
 export const newFilms = [
   {

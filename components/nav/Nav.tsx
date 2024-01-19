@@ -2,13 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import search from '@/public/icons/search.svg';
-import home from '@/public/icons/home.svg';
-import films from '@/public/icons/films.svg';
-import series from '@/public/icons/series.svg';
-import favorites from '@/public/icons/favorites.svg';
-import user from '@/public/icons/user.svg';
-
+import search from '../../public/icons/search.svg';
+import home from '../../public/icons/home.svg';
+import films from '../../public/icons/films.svg';
+import series from '../../public/icons/series.svg';
+import favorites from '../../public/icons/favorites.svg';
+import user from '../../public/icons/user.svg';
 
 import styles from './nav.module.css';
 import ScrollTop from '../scrollTop/ScrollTop';
@@ -49,7 +48,7 @@ const Nav = () => {
         </li>
       </ul>
 
-      <ScrollTop/>
+      <ScrollTop />
     </nav>
   );
 };

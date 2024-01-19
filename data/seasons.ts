@@ -1,6 +1,6 @@
-import posterOne from '@/public/seasons/posterOne.jpg';
-import posterTwo from '@/public/seasons/posterTwo.jpg';
-import posterThree from '@/public/seasons/posterThree.jpg';
+import posterOne from '../public/seasons/posterOne.jpg';
+import posterTwo from '../public/seasons/posterTwo.jpg';
+import posterThree from '../public/seasons/posterThree.jpg';
 
 export const seasons = [
   {

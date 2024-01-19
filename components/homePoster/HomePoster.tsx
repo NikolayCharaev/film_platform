@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-import poster from '@/public/bigPoster.jpg';
-import posterTitle from '@/public/bigPosterTitle.png';
+import poster from '../../public/bigPoster.jpg';
+import posterTitle from '../../public/bigPosterTitle.png';
 import styles from './homePoster.module.css';
 import Button from '../button/Button';
 const HomePoster = () => {
