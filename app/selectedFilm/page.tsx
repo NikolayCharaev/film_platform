@@ -2,10 +2,7 @@ import React from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
 
-//@ts-ignore
-// import poster from '../../public/selectedFilm/poster.jpg';
 import poster from '../../public/selectedFIlm/poster.jpg';
-//@ts-ignore
 import posterTitle from '../../public/selectedFilm/posterTitle.png';
 import favorites from '../../public/icons/favorites.svg';
 import addFavotite from '../../public/icons/add-favofite.svg';
