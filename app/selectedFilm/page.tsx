@@ -3,7 +3,7 @@ import styles from './page.module.css';
 import Image from 'next/image';
 
 import poster from '../../public/selectedFIlm/poster.jpg';
-import posterTitle from '../../public/selectedFilm/posterTitle.png';
+import posterTitle from '../../public/selectedFilm/title.png';
 import favorites from '../../public/icons/favorites.svg';
 import addFavotite from '../../public/icons/add-favofite.svg';
 import warningIcon from '../../public/warning.svg';
