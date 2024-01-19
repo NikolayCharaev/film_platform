@@ -37,6 +37,17 @@
 .seasonList{ 
   display: flex;
   gap: 20px;
+  overflow: scroll;
+}
+
+
+.seasonList::-webkit-scrollbar {
+  display: none;
+}
+
+.seasonList {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 .seasonPoster {
