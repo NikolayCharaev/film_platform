@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './page.module.css';
 import Image from 'next/image';
 
-import poster from '../../public/selectedFIlm/poster.jpg';
-import posterTitle from '../../public/selectedFilm/title.png';
+import poster from '../../public/filmselected/poster.jpg';
+import posterTitle from '../../public/filmselected/title.png';
 import favorites from '../../public/icons/favorites.svg';
 import addFavotite from '../../public/icons/add-favofite.svg';
 import warningIcon from '../../public/warning.svg';
