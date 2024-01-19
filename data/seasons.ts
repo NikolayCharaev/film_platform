@@ -28,26 +28,26 @@ export const seasons = [
     duration: 53,
   },
   {
-    imageUrl: posterTwo,
+    imageUrl: posterThree,
     season: 1,
     series: 5,
     duration: 18,
   },
   {
-    imageUrl: posterThree,
+    imageUrl: posterTwo,
     season: 1,
     series: 6,
     duration: 33,
   }, // 1 сезон
 
   {
-    imageUrl: posterOne,
+    imageUrl: posterTwo,
     season: 2,
     series: 1,
     duration: 47,
   },
   {
-    imageUrl: posterTwo,
+    imageUrl: posterOne,
     season: 2,
     series: 2,
     duration: 33,
